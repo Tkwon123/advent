@@ -1,4 +1,4 @@
-let data = require('./4data.js')
+let data = require('./4-data.js')
 
 data = data.replace(/(\r\n|\n|\r)/gm, ",");
 data = data.split(',');
